@@ -5,6 +5,12 @@ A simple and functional Library Management System Implemented in python 3 (Tkint
 2. Run `entrypoint.py' on your project directory.
 3. Ensure all dependencies are installed
 
+Download zip file and extract the files
+install mysql database - from google and set root username and password as 123456789
+CMD - pip install mysql 
+pip install mysql-connector-python
+Open all py files and update password to 123456789
+
 # Usage:
 1. Issue Book
 2. Renew Book
@@ -19,12 +25,12 @@ A simple and functional Library Management System Implemented in python 3 (Tkint
 11. Remove Book
 
 # Brief Introduction
+Library management system ------------------
+Admin and student are two users of the system. Admin has all the permissions to Add Book, Add another user and remove student.
+Student has limited access, search Books and reserve books.
+New enhacement feature is email notification to the student who reserve book.
 
-A student can issue a book for 03 days.After that the student have to renew the book, If the student didn't renew the book within the return date the student have to pay fine @ Rs 1/day.A student can take a maximum of 3 books......
 
-Download zip file and extract
-install mysql database - from google and set root username and password as 123456789
-CMD - pip install mysql 
-pip install mysql-connector-python
-Open all py files and update password to 123456789
+
+
 
